@@ -50,10 +50,13 @@ Console.WriteLine(a.solution(new[] { 6,2,3,8}));*/
 /*AlmostIncreasingSequence a = new AlmostIncreasingSequence();
 Console.WriteLine(a.solution(new[] { 10, 1, 2, 3, 4, 5}));*/
 
-MatricElementsSum a = new MatricElementsSum();
+/*MatricElementsSum a = new MatricElementsSum();
 int result = a.solution(new int[][]
             {
                 new int[] {0, 1, 1, 2},
                 new int[] {0, 5, 0, 0},
                 new int[] {2, 0, 3, 3}
-            });
+            });*/
+
+GimmeIndex a = new GimmeIndex();
+Console.WriteLine(a.solution(new[] { 2, 5, 3, 9, 7 }));

@@ -16,7 +16,7 @@ namespace Practice.Practice
             {
                 for (int j = 0; j < matrix[i].Length; j++)
                 {
-                    if (matrix[i][j] >= 0)
+                    if (i == 0 || ( i > 0 && matrix[i - 1][j] != 0))
                     {
                         sum += matrix[i][j];
                     }
