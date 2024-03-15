@@ -64,5 +64,8 @@ Console.WriteLine(a.solution(new[] { 2, 5, 3, 9, 7 }));*/
 /*XorLogicalOperator a = new XorLogicalOperator();
 Console.WriteLine(a.solution(false, false));*/
 
-NameInitials a = new NameInitials();
-Console.WriteLine(a.solution("chad smith"));
+/*NameInitials a = new NameInitials();
+Console.WriteLine(a.solution("chad smith"));*/
+
+ExpandedNumbers a = new ExpandedNumbers();
+Console.WriteLine(a.solution(70304));
