@@ -13,7 +13,7 @@ Implement a function that determines whether a string that contains only letters
 Assume the empty string is an isogram. Ignore letter case.*/
     internal class Isograms
     {    
-        private string str = "Dermatoglyphics";
+        //private string str = "Dermatoglyphics";
         HashSet<char> strHash = new HashSet<char>();
         public bool IsIsogram(string str)
         {

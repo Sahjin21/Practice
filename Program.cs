@@ -58,5 +58,11 @@ int result = a.solution(new int[][]
                 new int[] {2, 0, 3, 3}
             });*/
 
-GimmeIndex a = new GimmeIndex();
-Console.WriteLine(a.solution(new[] { 2, 5, 3, 9, 7 }));
+/*GimmeIndex a = new GimmeIndex();
+Console.WriteLine(a.solution(new[] { 2, 5, 3, 9, 7 }));*/
+
+/*XorLogicalOperator a = new XorLogicalOperator();
+Console.WriteLine(a.solution(false, false));*/
+
+NameInitials a = new NameInitials();
+Console.WriteLine(a.solution("chad smith"));
