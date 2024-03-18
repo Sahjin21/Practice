@@ -1,4 +1,5 @@
 ﻿using Practice.Practice;
+using Practice.Practice.Siemens;
 using System;
 using System.Drawing;
 using System.Security.Cryptography.X509Certificates;
@@ -67,5 +68,17 @@ Console.WriteLine(a.solution(false, false));*/
 /*NameInitials a = new NameInitials();
 Console.WriteLine(a.solution("chad smith"));*/
 
-ExpandedNumbers a = new ExpandedNumbers();
-Console.WriteLine(a.solution(70304));
+/*ExpandedNumbers a = new ExpandedNumbers();
+Console.WriteLine(a.solution(70304));*/
+
+/*StringReverse a  = new StringReverse();
+Console.WriteLine(a.solution("FirstWord"));*/
+
+/*ClimbingStairs a = new ClimbingStairs();
+Console.WriteLine(a.solution(new List<int> { 1,2,1,3 }));*/
+
+/*IntegersInStrings a = new IntegersInStrings("1,99,3");
+foreach (var num in a.Integers())
+{
+    Console.WriteLine(num);
+}*/
