@@ -82,3 +82,32 @@ foreach (var num in a.Integers())
 {
     Console.WriteLine(num);
 }*/
+/*Palindrome2 a = new Palindrome2();
+Console.WriteLine(a.solution("level"));*/
+
+/*List<List<int>> arr = new List<List<int>>()
+        {
+            new List<int> {1, 1, 1, 0, 0, 0},
+            new List<int> {0, 1, 0, 0, 0, 0},
+            new List<int> {1, 1, 1, 0, 0, 0},
+            new List<int> {0, 0, 2, 4, 4, 0},
+            new List<int> {0, 0, 0, 2, 0, 0},
+            new List<int> {0, 0, 1, 2, 4, 0}
+        };
+
+int maxHourglassSum = _2dArrayMax.hourglassSum(arr);
+Console.WriteLine("Maximum hourglass sum: " + maxHourglassSum);*/
+
+CountChars countChars = new CountChars();
+
+// Input string
+string s = "aba";
+
+// Call the Count method to get the dictionary of character counts
+Dictionary<char, int> d = CountChars.Count(s);
+
+// Print the character counts
+foreach (var pair in d)
+{
+    Console.WriteLine($"Character: {pair.Key}, Count: {pair.Value}");
+}
